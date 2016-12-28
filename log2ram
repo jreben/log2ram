@@ -1,11 +1,11 @@
 #!/bin/sh
 
-SIZE=40M
+SIZE=100M
 USE_RSYNC=false
 
 # don't touch anything below here.
 
-HDD_LOG=/var/log.hdd/
+HDD_LOG=/var/log.permanent/
 RAM_LOG=/var/log/
 LOG2RAM_LOG="${HDD_LOG}log2ram.log"
 LOG_OUTPUT="tee -a $LOG2RAM_LOG"
